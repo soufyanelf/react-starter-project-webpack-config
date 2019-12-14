@@ -1,0 +1,46 @@
+{
+  "name": "react-starter-project-webpack-config",
+  "version": "1.0.0",
+  "description": "React starter project with webpack config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souffanda/react-starter-project-webpack-config.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "config",
+    "babel",
+    "started",
+    "easy",
+    "fast",
+    "dev"
+  ],
+  "author": "Soufian El foukahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souffanda/react-starter-project-webpack-config/issues"
+  },
+  "homepage": "https://github.com/souffanda/react-starter-project-webpack-config#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  }
+}
